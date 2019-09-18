@@ -1,0 +1,55 @@
+body {
+	background-image: url(background.png);
+
+}
+
+#box{
+	margin: auto;
+	height: 440px;
+	width: 300px;
+	margin-top: 150px;
+	border-radius: 10px;	
+    background-color: rgba(255,255,255,0.8);
+    border-width:5px solid black;
+}
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	color: darkgreen;
+}
+input {
+	width: 220px;
+	border-radius: 5px;
+	font-size: 1rem;
+}
+fab-{
+	color: white;
+}
+.loginForm {
+	text-align: center;
+
+}
+a {
+	text-align: center;
+}
+
+button {
+	color: white;
+ 	width: 220px;
+ 	height: 30px;
+	background-color: red;
+	border-radius: 10px;
+}
+.btn-submit {
+	color: white;
+ 	width: 220px;
+ 	height: 30px;
+	background-color: green;
+	border-radius: 10px;
+}

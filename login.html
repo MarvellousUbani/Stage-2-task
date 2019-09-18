@@ -1,34 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	    <script src="https://kit.fontawesome.com/7fb9f19e6f.js" crossorigin="anonymous"></script>
 	<title>Codex</title>
 </head>
 <body>
 	<main>
 		<div id="box">
-			<h1>codeX</h1>
-			<h5>Welcome back!</h5>
+			<h1>codeX</h1><br>
+			<h3>Welcome back!</h3><br>
 			<p>New to codeX? 
 				<a href="#"> Sign Up</a>
-			</p>
+			</p><br><br>
 			
-			<form action="submit_login">
-				<button>
-					<i class="fab fa-google">
-					</i>
-					Continue with Google
-				</button>
-				<label for="mail">
-					<input type="email" name="email" placeholder="Email" id="mail">
-				</label>
-				<label for="pword">
-					<input type="password" name="password" placeholder="Password" id="pword">
-				</label>
-				<button type="submit">
-					Continue with Email
-				</button>
+			<form class="loginForm" action="submit_login">
+				<button><i class="fab fa-google"></i>Continue with Google</button><br><br>
+				<input type="email" name="email" placeholder="Email" id="mail"><br><br>
+				<input type="password" name="password" placeholder="Password" id="pass"><br><br>
+				<button class="btn-submit" type="submit">Continue with Email</button><br><br>
 			</form>
 			<a href="#">Forgot Password?</a>
 		</div>
