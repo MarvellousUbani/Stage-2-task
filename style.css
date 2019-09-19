@@ -41,7 +41,7 @@ input {
 fab-{
 	color: white;
 }
-.loginForm {
+.signupForm {
 	text-align: center;
 }
 
@@ -70,4 +70,5 @@ button {
 }
 .btn-submit {
 	background-color: green;
+	font-weight: bold
 }
