@@ -1,16 +1,22 @@
 body {
-	background-image: url(background.png);
+	background-color:#e5e5e5;
+	background: linear-gradient(rgba(229,229,229,0.5), rgba(229,229,229,0.5)),url("background.png") no-repeat center;
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
+
 #box{
-	margin: auto;
-	height: 440px;
-	width: 300px;
-	margin-top: 150px;
-	border-radius: 10px;	
+	margin: 6rem auto;
+	height: auto;
+	max-width: 400px;
+	border-radius: 20px;	
     background-color: rgba(255,255,255,0.8);
-    border-width:5px solid black;
+    padding:.75rem 1.5rem 4rem 1.5rem;
+
 }
 h1{
 	text-align: center;
@@ -24,32 +30,44 @@ h3{
 	color: darkgreen;
 }
 input {
-	width: 220px;
-	border-radius: 5px;
 	font-size: 1rem;
+    margin-bottom: 1.2rem;
+    padding: .5rem 1rem;
+    max-width: 100%;
+    width: 90%;
+    background: #e5e5e5;
+    border:1px solid #ccc;
 }
 fab-{
 	color: white;
 }
 .loginForm {
 	text-align: center;
-
 }
-a {
-	text-align: center;
+
+.welcome_txt{
+	font-size: 1.3rem;
+	font-weight: bold;
+	color:green;
+}
+
+.green_link{
+	color:green;
+	font-weight: bold;
+}
+
+.f_right{
+	float:right;
 }
 
 button {
 	color: white;
- 	width: 220px;
- 	height: 30px;
+ 	width: 100%;
 	background-color: red;
-	border-radius: 10px;
+	border:none;
+	padding:.75rem 1.5rem;
+	margin-bottom: 1.2rem;
 }
 .btn-submit {
-	color: white;
- 	width: 220px;
- 	height: 30px;
 	background-color: green;
-	border-radius: 10px;
 }
