@@ -58,13 +58,13 @@ if (isset($_POST['login'])) {
 
 			<form class="loginForm" action='<?php echo $_SERVER["PHP_SELF"]; ?>' method="POST">
 				<button><i class="fab fa-google"></i> Continue with Google</button>
-				<input type="email" name="email" placeholder="Email" id="mail">
+				<input type="email" name="email" placeholder="Email" id="mail" required>
 				<div style="color: red;">
 					<?php if (count($error) > 1) {
 						echo $error['mail'];
 					}  ?>	
 				</div><br>
-				<input type="password" name="password" placeholder="Password" id="pass">
+				<input type="password" name="password" placeholder="Password" id="pass" required>
 				<div style="color: red;">
 					<?php if (count($error) > 1) {
 						echo $error['password'];
@@ -78,9 +78,8 @@ if (isset($_POST['login'])) {
 				} if (!empty($success)) {?>
 			    	<script type="text/javascript">
 					alert("<?php echo $success; ?>");
+					window.location = 'home.php';
 				</script><?php
-			    	$url = 'home.php';
-			    	header("Refresh: 0; URL='$url'");
 				} ?>
 				<button class="btn-submit" type="submit" name="login">Continue with Email</button>
 			</form>
