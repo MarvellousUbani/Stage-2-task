@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
 	    <script src="https://kit.fontawesome.com/7fb9f19e6f.js" crossorigin="anonymous"></script>
 	<title>Codex</title>
 </head>
@@ -11,17 +15,22 @@
 			<h1>codeX</h1>
 			<p class="welcome_txt">Welcome back!</p>
 			<p>New to codeX? 
-				<a href="#" class="green_link"> Sign Up</a>
+				<a href="./index.html" class="green_link"> Sign Up</a>
 			</p><br><br>
 			
 			<form class="loginForm" action="submit_login">
+					<p class="success">SUCCESS</p>
 				<button><i class="fab fa-google"></i> Continue with Google</button>
 				<input type="email" name="email" placeholder="Email" id="mail">
+				<div class="password-div">
 				<input type="password" name="password" placeholder="Password" id="pass">
+				</div>
 				<button class="btn-submit" type="submit">Continue with Email</button>
 			</form>
 			<a class="green_link f_right" href="#">Forgot Password?</a>
 		</div>
 	</main>
+	<!-- js -->
+	<script src="./Assets/js/sign-in.js"></script>
 </body>
 </html>

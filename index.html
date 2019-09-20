@@ -1,7 +1,12 @@
-****<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./Assets/css/style.css">
 	    <script src="https://kit.fontawesome.com/7fb9f19e6f.js" crossorigin="anonymous"></script>
 	<title>Codex</title>
 </head>
@@ -13,13 +18,22 @@
 			<br>
 			
 			<form class="signupForm" action="submit_login">
+				<p class="success">SUCCESS</p>
+				<div class="name-div">
 				<i class="fas fa-user"></i> &nbsp;<input type="name" name="name" placeholder="Full name" id="name"><br>
+				</div>
+				<div class="email-div">
 				<i class="fas fa-envelope"></i> &nbsp;<input type="email" name="email" placeholder="Email" id="mail"><br>
+				</div>
+				<div class="password-div">
 				<i class="fas fa-key"></i> &nbsp;<input type="password" name="password" placeholder="Password" id="pass">
+				</div>
 				<button class="btn-submit" type="submit">Sign Up</button>
 			</form>
-			<p>Have an account already? <a class="green_link" href="#">Login here</a></p>
+			<p>Have an account already? <a class="green_link" href="./login.html">Login here</a></p>
 		</div>
 	</main>
+	<!-- js -->
+	<script src="./Assets/js/sign-up.js"></script>
 </body>
 </html>
