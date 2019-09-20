@@ -38,8 +38,4 @@ btn.addEventListener('click', (e) => {
     email.value = '';
     password.value = '';
 
-
-    setTimeout(() => {
-        window.location = '/login.html';
-    }, 1000)
 })
